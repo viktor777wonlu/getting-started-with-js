@@ -1,4 +1,4 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const result = await makeHttpRequest(url);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const flattenedArray = arr => [].concat(...arr);
+var arr2 = arr1.reverse();
+const merge = (a, b) => [...a, ...b];
+const channel = getChannel(computedAppVersion);
