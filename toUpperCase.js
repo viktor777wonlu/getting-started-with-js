@@ -1,4 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-var arr2 = arr1.reverse();
-const merge = (a, b) => [...a, ...b];
-const channel = getChannel(computedAppVersion);
+const toggleBool = () => (bool = !bool);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isTabInView = () => !document.hidden;
