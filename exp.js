@@ -1,2 +1,1 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const isTabInView = () => !document.hidden;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
