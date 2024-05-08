@@ -1,1 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const merge = (a, b) => [...a, ...b];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
