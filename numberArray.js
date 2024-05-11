@@ -1,1 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(false === '0');
+const reversedString = str => str.split('').reverse().join('');
