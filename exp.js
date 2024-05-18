@@ -1,1 +1,2 @@
-const minNumber = arr => Math.min(...arr);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const appName = getAppName(channel);
