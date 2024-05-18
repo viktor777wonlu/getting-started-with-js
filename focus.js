@@ -1,3 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+var arr3 = "jones".split('');
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
