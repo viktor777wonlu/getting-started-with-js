@@ -1,3 +1,1 @@
-const merge = (a, b) => a.concat(b);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
