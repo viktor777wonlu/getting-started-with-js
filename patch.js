@@ -1,1 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const uniqueArray = arr => [...new Set(arr)];
