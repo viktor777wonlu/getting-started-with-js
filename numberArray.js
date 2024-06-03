@@ -1,2 +1,2 @@
-console.log(false === '0');
-const reversedString = str => str.split('').reverse().join('');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const lastElement = arr => arr[arr.length - 1];
