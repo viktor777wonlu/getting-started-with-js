@@ -1,1 +1,1 @@
-var pattern = {};
+console.log(false === '0');
