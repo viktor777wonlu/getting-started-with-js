@@ -1,1 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const results = await Promise.all(resultingPromises);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
