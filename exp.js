@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const results = await Promise.all(resultingPromises);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const flattenedArray = arr => [].concat(...arr);
