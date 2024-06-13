@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
