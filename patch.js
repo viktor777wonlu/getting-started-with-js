@@ -1,3 +1,1 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const goToTop = () => window.scrollTo(0, 0);
