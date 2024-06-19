@@ -1,1 +1,1 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
