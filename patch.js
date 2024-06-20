@@ -1,1 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const merge = [...new Set([...a, ...b])];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
