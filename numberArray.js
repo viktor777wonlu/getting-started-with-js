@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const fullName = name || 'buddy';
