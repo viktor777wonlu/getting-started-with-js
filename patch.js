@@ -1,2 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const uniqueArr = (arr) => [...new Set(arr)];
+const isTabInView = () => !document.hidden;
+const toggleBool = () => (bool = !bool);
