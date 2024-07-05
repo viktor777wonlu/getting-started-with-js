@@ -1,2 +1,1 @@
-const isTabInView = () => !document.hidden;
-const toggleBool = () => (bool = !bool);
+const randomString = () => Math.random().toString(36).slice(2);
