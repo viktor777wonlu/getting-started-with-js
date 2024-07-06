@@ -1,3 +1,1 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log( "A" - "B" + "2");
-const maxNumber = arr => Math.max(...arr);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
