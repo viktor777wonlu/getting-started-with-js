@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const removeDuplicates = (arr) => [...new Set(arr)];
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const updated = numbers.filter(element => element > 6);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+console.log("1 && 2 = "+(1 && 2));
