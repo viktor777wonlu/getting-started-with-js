@@ -1,2 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+var pattern = {};
+console.log("1 && 2 = "+(1 && 2));
+const randomBoolean = () => Math.random() >= 0.5;
