@@ -1,3 +1,1 @@
-var DELIM_SIZE = 4;
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const toggleBool = () => (bool = !bool);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
