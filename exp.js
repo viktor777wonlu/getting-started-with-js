@@ -1,1 +1,2 @@
-console.log(typeof typeof 1);
+const merge = (a, b) => a.concat(b);
+var pattern = {};
