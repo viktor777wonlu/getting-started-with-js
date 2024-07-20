@@ -1,3 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-console.log("1 && 2 = "+(1 && 2));
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const uniqueArr = (arr) => [...new Set(arr)];
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
