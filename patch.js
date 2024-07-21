@@ -1,3 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-var pattern = {};
-const isTabInView = () => !document.hidden;
+var arr3 = "jones".split('');
+var arr1 = "john".split('');
