@@ -1,2 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = [...new Set(a.concat(b))];
+const randomBoolean = () => Math.random() >= 0.5;
