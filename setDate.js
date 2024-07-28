@@ -1,3 +1,1 @@
-var pattern = {};
-console.log("1 && 2 = "+(1 && 2));
-const randomBoolean = () => Math.random() >= 0.5;
+const updated = numbers.filter(element => element > 6);
