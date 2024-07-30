@@ -1,2 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const channelName = getChannelName(channel);
+var arr3 = "jones".split('');
+const uniqueArray = arr => [...new Set(arr)];
