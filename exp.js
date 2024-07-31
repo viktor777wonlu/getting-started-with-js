@@ -1,2 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log("1 || 2 = "+(1 || 2));
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log("0 || 1 = "+(0 || 1));
