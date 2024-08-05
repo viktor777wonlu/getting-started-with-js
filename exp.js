@@ -1,3 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-console.log("0 || 1 = "+(0 || 1));
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const result = await makeHttpRequest(url);
+console.log(false == '0');
